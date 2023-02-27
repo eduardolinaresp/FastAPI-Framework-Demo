@@ -1,20 +1,26 @@
+# Instalación 
+
+https://www.youtube.com/watch?v=6eVj33l5e9M&t=18s
+
+
 ## 1 Preparar entorno virtual
 
     python -m venv .venv 
     .venv\scripts\activate
 
-## 2 Instalar FastAPI Framework
+### seleccionar interprete en vscode
 
-    pip install FastAPI
+    ctrl + p  + >  python interpreter
 
-## 3 Definir directorio base
+## 2 Instalar paquetes 
 
-
-## Agregar tag al avance 
-
-    git tag -a "comentario del tag" numero_del_commit
-    git push origin --tags
+    pip install uvicorn
+    pip install fastapi
+    pip install sqlalchemy
+    pip install pymysql
 
 ## Establecer en archivo de proyecto librerias utilizadas.
 
     pip freeze > requirements.txt     
+
+
