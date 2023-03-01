@@ -1,5 +1,8 @@
 ## Tutorial
 
+
+https://www.youtube.com/watch?v=6eVj33l5e9M&t=18s
+
 ### Definir SQLALCHEMY
 
     1-Ejecutar MYSQL crear base de datos storedb
@@ -20,5 +23,10 @@
          user = Table("users", meta)
          
 
+### Fromatear codigo
 
+    ctrl + p  > format document
+    VSCODE solicitará permisos para instalar autopep8 indicamos que si.
+    repetir ctrl + p  > format document para dar formato 
+    conclusion el formateador es malo
     

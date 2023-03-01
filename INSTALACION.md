@@ -1,8 +1,5 @@
 # Instalación 
 
-https://www.youtube.com/watch?v=6eVj33l5e9M&t=18s
-
-
 ## 1 Preparar entorno virtual
 
     python -m venv .venv 
@@ -21,7 +18,7 @@ https://www.youtube.com/watch?v=6eVj33l5e9M&t=18s
 
 ## Establecer en archivo de proyecto librerias utilizadas.
 
-    pip freeze > requirements.txt   
+    pip freeze > requeriment.txt   
 
     pip install -r requeriment.txt 
 
